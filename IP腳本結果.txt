@@ -1,0 +1,73 @@
+config firewall address
+edit 118.107.47.75
+set subnet 118.107.47.75/32
+next
+edit 137.220.152.38
+set subnet 137.220.152.38/32
+next
+edit 137.220.152.38
+set subnet 137.220.152.38/32
+next
+edit 137.220.152.38
+set subnet 137.220.152.38/32
+next
+edit 137.220.152.38
+set subnet 137.220.152.38/32
+next
+edit 118.107.40.31
+set subnet 118.107.40.31/32
+next
+edit 118.107.40.31
+set subnet 118.107.40.31/32
+next
+edit 118.107.40.31
+set subnet 118.107.40.31/32
+next
+edit 118.107.40.31
+set subnet 118.107.40.31/32
+next
+edit 47.238.45.156
+set subnet 47.238.45.156/32
+next
+edit 47.239.159.79
+set subnet 47.239.159.79/32
+next
+edit 118.107.32.227
+set subnet 118.107.32.227/32
+next
+edit 45.195.148.107
+set subnet 45.195.148.107/32
+next
+edit 47.239.159.79
+set subnet 47.239.159.79/32
+next
+edit 143.92.38.217
+set subnet 143.92.38.217/32
+next
+edit 118.107.9.76
+set subnet 118.107.9.76/32
+next
+edit 112.213.116.91
+set subnet 112.213.116.91/32
+next
+edit 103.233.10.191
+set subnet 103.233.10.191/32
+next
+edit 107.148.146.164
+set subnet 107.148.146.164/32
+next
+edit 185.127.93.186
+set subnet 185.127.93.186/32
+next
+edit 202.95.22.2
+set subnet 202.95.22.2/32
+next
+edit 27.124.46.137
+set subnet 27.124.46.137/32
+next
+end
+config firewall addrgrp
+edit BlockList-IP
+set member 118.107.47.75 137.220.152.38 137.220.152.38 137.220.152.38 137.220.152.38 118.107.40.31 118.107.40.31 118.107.40.31 118.107.40.31 47.238.45.156 47.239.159.79 118.107.32.227 45.195.148.107 47.239.159.79 143.92.38.217 118.107.9.76 112.213.116.91 103.233.10.191 107.148.146.164 185.127.93.186 202.95.22.2 27.124.46.137
+next
+end

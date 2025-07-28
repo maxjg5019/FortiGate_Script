@@ -1,0 +1,139 @@
+config firewall address
+edit xxg.manarythubazar.com
+set type fqdn
+set fqdn xxg.manarythubazar.com
+next
+edit zhong.2j3j.xyz
+set type fqdn
+set fqdn zhong.2j3j.xyz
+next
+edit w3.youlian-cn.com
+set type fqdn
+set fqdn w3.youlian-cn.com
+next
+edit zn.uatqvra8t5x30uat.com
+set type fqdn
+set fqdn zn.uatqvra8t5x30uat.com
+next
+edit k2.laomaogege2.com
+set type fqdn
+set fqdn k2.laomaogege2.com
+next
+edit trjdfhdfufgbsdt.oss-accelerate-overseas.aliyuncs.com
+set type fqdn
+set fqdn trjdfhdfufgbsdt.oss-accelerate-overseas.aliyuncs.com
+next
+edit upuoup99999jigtewrngldf.oss-cn-hongkong.aliyuncs.com
+set type fqdn
+set fqdn upuoup99999jigtewrngldf.oss-cn-hongkong.aliyuncs.com
+next
+edit appupdatever7.oss-cn-hongkong.aliyuncs.com
+set type fqdn
+set fqdn appupdatever7.oss-cn-hongkong.aliyuncs.com
+next
+edit zn.uatqvra8t5x30uat.com
+set type fqdn
+set fqdn zn.uatqvra8t5x30uat.com
+next
+edit dy.rt4sf.com
+set type fqdn
+set fqdn dy.rt4sf.com
+next
+edit jy1.0ray.cn
+set type fqdn
+set fqdn jy1.0ray.cn
+next
+edit rs8-9yue-5rchvk6.xyz
+set type fqdn
+set fqdn rs8-9yue-5rchvk6.xyz
+next
+edit jiuyue.app.tw.cn
+set type fqdn
+set fqdn jiuyue.app.tw.cn
+next
+edit wildcard.daumt.net
+set type fqdn
+set fqdn *.daumt.net
+next
+edit wildcard.potplayer.com.tw
+set type fqdn
+set fqdn *.potplayer.com.tw
+next
+edit wildcard.nsecsoft.com
+set type fqdn
+set fqdn *.nsecsoft.com
+next
+edit zpodyp1.oss-ap-southeast-1.aliyuncs.com
+set type fqdn
+set fqdn zpodyp1.oss-ap-southeast-1.aliyuncs.com
+next
+edit chailangyx.com
+set type fqdn
+set fqdn chailangyx.com
+next
+edit 0t1g.s3.ap-east-1.amazonaws.com
+set type fqdn
+set fqdn 0t1g.s3.ap-east-1.amazonaws.com
+next
+edit cwyn.net.cwyn.net
+set type fqdn
+set fqdn cwyn.net.cwyn.net
+next
+edit Lineliil.s3.ap-southeast-1.amazonaws.com
+set type fqdn
+set fqdn Lineliil.s3.ap-southeast-1.amazonaws.com
+next
+edit baiaidu.oss-me-east-1.aliyuncs.com
+set type fqdn
+set fqdn baiaidu.oss-me-east-1.aliyuncs.com
+next
+edit wildcard.aweray.com
+set type fqdn
+set fqdn *.aweray.com
+next
+edit wildcard.oray.com
+set type fqdn
+set fqdn *.oray.com
+next
+edit www.lineoe.com
+set type fqdn
+set fqdn www.lineoe.com
+next
+edit www.line-tww.com
+set type fqdn
+set fqdn www.line-tww.com
+next
+edit wx.knlfielg.icu
+set type fqdn
+set fqdn wx.knlfielg.icu
+next
+edit www.linecl.com
+set type fqdn
+set fqdn www.linecl.com
+next
+edit www.linec-tw.com
+set type fqdn
+set fqdn www.linec-tw.com
+next
+edit line-chinese.com
+set type fqdn
+set fqdn line-chinese.com
+next
+edit potplayer.daumt.net
+set type fqdn
+set fqdn potplayer.daumt.net
+next
+edit www.skypezh.com
+set type fqdn
+set fqdn www.skypezh.com
+next
+edit www.telegramni.com
+set type fqdn
+set fqdn www.telegramni.com
+next
+end
+config firewall addrgrp
+edit BlockList-DN
+set member xxg.manarythubazar.com zhong.2j3j.xyz w3.youlian-cn.com zn.uatqvra8t5x30uat.com k2.laomaogege2.com trjdfhdfufgbsdt.oss-accelerate-overseas.aliyuncs.com upuoup99999jigtewrngldf.oss-cn-hongkong.aliyuncs.com appupdatever7.oss-cn-hongkong.aliyuncs.com zn.uatqvra8t5x30uat.com dy.rt4sf.com jy1.0ray.cn rs8-9yue-5rchvk6.xyz jiuyue.app.tw.cn wildcard.daumt.net wildcard.potplayer.com.tw wildcard.nsecsoft.com zpodyp1.oss-ap-southeast-1.aliyuncs.com chailangyx.com 0t1g.s3.ap-east-1.amazonaws.com cwyn.net.cwyn.net Lineliil.s3.ap-southeast-1.amazonaws.com baiaidu.oss-me-east-1.aliyuncs.com wildcard.aweray.com wildcard.oray.com www.lineoe.com www.line-tww.com wx.knlfielg.icu www.linecl.com www.linec-tw.com line-chinese.com potplayer.daumt.net www.skypezh.com www.telegramni.com
+next
+end
