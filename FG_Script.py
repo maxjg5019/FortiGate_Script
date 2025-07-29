@@ -3,10 +3,15 @@ import tkinter as tk
 def make_Command():
     text = inputArea.get('1.0', 'end-1c')
     textArray = text.split('\n')
-    testButton['state'] = 'disabled'
+    # testButton['state'] = 'disabled'
     print(text)
     print(textArray)
 
+def change_Visibility():
+    if inputArea.winfo_ismapped():
+        inputArea.place_forget()
+    else:
+        inputArea.place(x=200,y=120,anchor='n')
 
 window = tk.Tk()
 window.title('FortiGate 批量指令生成腳本')
@@ -20,7 +25,7 @@ radio_Subnet.place(x=50,y=20,anchor='nw')
 radio_FQDN.place(x=350,y=20,anchor='ne')
 radio_Subnet.select()
 
-testButton = tk.Button(text='產出指令',command=make_Command,font=('Times New Roman',14))
+testButton = tk.Button(text='產出指令',command=change_Visibility,font=('Times New Roman',14))
 testButton.pack(side='bottom',fill='x',pady=15,padx=15)
 testButton.config(bg='#99ff99')
 
