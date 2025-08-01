@@ -42,22 +42,22 @@
 ```python
 // 建 IP 物件
 config firewall address
-edit 118.107.47.75
-set subnet 118.107.47.75/32
+edit 172.0.0.1
+set subnet 172.0.0.1/32
 next
 end
 
 // 建 FQDN 物件
 config firewall address
-edit xxg.manarythubazar.com
+edit  google.com
 set type fqdn
-set fqdn xxg.manarythubazar.com
+set fqdn  google.com
 next
 
 // 建 Address Gruop 
 config firewall addrgrp
 edit BlockList-DN
-set member google.com yuotube.com
+set member google.com youtube.com
 next
 end
 
